@@ -1,0 +1,255 @@
+{
+	"tables": {
+		"be18aac3-6ec0-4ba9-95ad-292d850eeda7": {
+			"id": "be18aac3-6ec0-4ba9-95ad-292d850eeda7",
+			"visible": true,
+			"name": "credible_refs",
+			"desc": "List of credible references whose legitimacy is already known.",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "645cf4ef-3d6e-487f-9dda-920ed0fd8cdf",
+					"name": "link",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"collation": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "c62d0ee0-d372-492d-a614-032441261c46",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "4df59692-f1fe-4d1f-93fd-7d3b69115f41",
+							"colid": "645cf4ef-3d6e-487f-9dda-920ed0fd8cdf"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"collation": "",
+			"objectType": "table",
+			"sqlite": {
+				"withoutrowid": false
+			}
+		},
+		"9e507f00-45e0-46b8-a9ba-d0e2ffed2e8b": {
+			"id": "9e507f00-45e0-46b8-a9ba-d0e2ffed2e8b",
+			"visible": true,
+			"name": "infamous_refs",
+			"desc": "List of infamous references whose legitimacy is already known to be false.",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "2da5f65c-815f-4c2e-bbde-2db00b6806a5",
+					"name": "link",
+					"datatype": "TEXT",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "01bce594-9152-4b82-88a1-5b8d9f2ef501",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "c00f00e0-43be-4ab0-94fa-1cdad5deaa24",
+							"colid": "2da5f65c-815f-4c2e-bbde-2db00b6806a5"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"collation": "",
+			"objectType": "table",
+			"sqlite": {
+				"withoutrowid": false
+			}
+		},
+		"59f552e0-eea6-499c-b331-e2cdde8e27bc": {
+			"id": "59f552e0-eea6-499c-b331-e2cdde8e27bc",
+			"visible": true,
+			"name": "neutral_sites",
+			"desc": "List of sites that cannot be legit nor fake, such as known search engines, social media sites, etc.",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "4947fd58-907b-48ff-98dc-138e66ffa2dd",
+					"name": "link",
+					"datatype": "TEXT",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					}
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "a7aa7118-2987-48de-8fb9-6894ed068df3",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "207a51da-6cd1-43df-9175-ad0b0cb9756f",
+							"colid": "4947fd58-907b-48ff-98dc-138e66ffa2dd"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"collation": "",
+			"objectType": "table",
+			"sqlite": {
+				"withoutrowid": false
+			}
+		}
+	},
+	"relations": {},
+	"notes": {},
+	"lines": {},
+	"model": {
+		"name": "central_db_schema",
+		"id": "ad475564-baa2-445f-8b8d-6124b6e38fa9",
+		"activeDiagram": "323c45e6-0dec-44d5-bd1b-59e68fa0ef0f",
+		"desc": "Database to use for Fact News in Hackathon 2021.",
+		"path": "",
+		"type": "SQLITE",
+		"version": 1,
+		"parentTableInFkCols": true,
+		"caseConvention": "under",
+		"replaceSpace": "_",
+		"color": "transparent",
+		"sideSelections": true,
+		"isDirty": true,
+		"storedin": {
+			"major": 4,
+			"minor": 3,
+			"extra": 0
+		},
+		"embeddedInParentsIsDisplayed": true,
+		"schemaContainerIsDisplayed": false,
+		"cardinalityIsDisplayed": false,
+		"estimatedSizeIsDisplayed": false,
+		"def_collation": "",
+		"def_coltopk": true,
+		"sqlSettings": {
+			"wrapLines": true,
+			"wrapOffset": 80,
+			"indent": true,
+			"indentationString": "spaces",
+			"indentationSize": 2,
+			"limitItemsOnLine": true,
+			"maxListItemsOnLine": 3,
+			"statementDelimiter": ";",
+			"routineDelimiter": ";",
+			"keywordCase": "upper",
+			"identiferCase": "original",
+			"includeSchema": "always",
+			"quotation": "if_needed"
+		},
+		"writeFileParam": true,
+		"lastSaved": "12/9/2021"
+	},
+	"otherObjects": {},
+	"diagrams": {
+		"323c45e6-0dec-44d5-bd1b-59e68fa0ef0f": {
+			"name": "Main Diagram",
+			"description": "",
+			"id": "323c45e6-0dec-44d5-bd1b-59e68fa0ef0f",
+			"keysgraphics": true,
+			"linegraphics": "detailed",
+			"zoom": 1,
+			"background": "transparent",
+			"lineColor": "transparent",
+			"isOpen": true,
+			"main": true,
+			"diagramItems": {
+				"be18aac3-6ec0-4ba9-95ad-292d850eeda7": {
+					"referencedItemId": "be18aac3-6ec0-4ba9-95ad-292d850eeda7",
+					"x": 46,
+					"y": 35,
+					"gHeight": 45,
+					"gWidth": 158,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"9e507f00-45e0-46b8-a9ba-d0e2ffed2e8b": {
+					"referencedItemId": "9e507f00-45e0-46b8-a9ba-d0e2ffed2e8b",
+					"x": 45,
+					"y": 96,
+					"gHeight": 45,
+					"gWidth": 158,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"59f552e0-eea6-499c-b331-e2cdde8e27bc": {
+					"referencedItemId": "59f552e0-eea6-499c-b331-e2cdde8e27bc",
+					"x": 45,
+					"y": 162,
+					"gHeight": 45,
+					"gWidth": 158,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				}
+			},
+			"scroll": {
+				"left": 0,
+				"top": 0
+			}
+		}
+	},
+	"order": [
+		"be18aac3-6ec0-4ba9-95ad-292d850eeda7",
+		"9e507f00-45e0-46b8-a9ba-d0e2ffed2e8b",
+		"59f552e0-eea6-499c-b331-e2cdde8e27bc"
+	]
+}

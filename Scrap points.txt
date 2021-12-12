@@ -1,0 +1,19 @@
+Idea points:
+
+	* It might not be a good idea to rely on machine learning to filter out fake news, since there is probably more trolls than legit news posters, which would lead to flooding the filtering model with significantly more erroneous learning methodology than correct ones.
+	
+	* Therefore, the POST COMMITTEE (those ultimately responsible for deciding whether a CERTAIN ARTICLE is to be posted or scrapped) should be comprised of people who have credentials fit for the matter/news at hand. They should be dedicated for this purpose, since dis/mis/mal -information has just as much negative impact as ignorance.
+	
+	* A certain article (which could be either legit or fake) must have a minimum number of TAGGED REFERENCES before it can be considered for review by the post committee.
+	
+	* To aid the post committee, the system can accept a WHITELIST OF CREDIBLE REFERENCES (websites known for gathering legit news and scientific journals and such). Once a credible reference is tagged in an article, it automatically adds a particular MERIT VALUE to the article.
+	
+		* Note that usually, credible references rectify articles that they sometimes erroneously post by retracting them (removing them from posting), so that helps in alleviating dis/mis/mal -information.
+		
+		* Conversely, the system can also accept a BLACKLIST OF UNRELIABLE REFERENCES. Tagging them as reference automatically deducts a particular merit value to the article.
+	
+	* If an article reaches a minimum standard set merit value, only then will it be posted for people to see.
+	
+	* People can only comment on a certain post if they answer and acquire the standard "passing" score in a quiz showing that they have sufficient knowledge on the subject of the article.
+	
+		* Failing to acquire the standard "passing" score will lock out the particular commenter by not allowing him to retry the quiz within 3 days. This will encourage people to read questions carefully, and furthermore help improve their reading habits and comprehension level.
