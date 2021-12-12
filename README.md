@@ -5,6 +5,11 @@ Event theme: `Flattening the Infodemic Curve`
 
 Teammates: _Alvin Esquivel_, _Maica Mae Mangente_
 
+Tools used:
+* `Python 3.10.0`
+* `Moon Modeler 4.3.0` - for database ER diagram creation and SQL script generation
+* `DB Browser for SQLite` - for database record entry
+
 Result: **Won 1st place**
 
 Our output is a `Streamlit`-based prototype of a URL verifier made in Python, that determines if a provided URL or list of URLs contain legit or fake information. The concept of the backend validator is comprised of a machine learning model that scrapes through website contents to look for metadata and other relevant data to determine if the content is legit or fake, then if it is determined to be legit, the scraped data is placed in a blockchain to be used later on as reference in future validation checks.
